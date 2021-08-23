@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    color: white;
+    background: darkslategrey;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    padding: 100px 20vw;
+}
+
+.pink {
+    background-color: #C6808C;
+}
+
+.lightPurple {
+    background-color: #6D5B87;
+}
+
+.purple {
+    background-color: #44364B;
+}
+
+.orange {
+    background-color: #EC745C;
+}
+
+.peach {
+    background-color: #f5ad8c;
+}
+
+.spacer {
+    aspect-ratio: 2700/600;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.orange-peach {
+    background-image: url(./orange-peach.svg);
+}
+
+.purple-orange {
+    background-image: url(./purple-orange.svg);
+}
+
+.lightPurple-purple {
+    background-image: url(./lightPurple-purple.svg);
+}
+
+.pink-lightPurple {
+    background-image: url(./pink-lightPurple.svg);
+}
